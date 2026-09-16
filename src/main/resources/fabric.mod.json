@@ -3,7 +3,7 @@
 	"id": "nofalllog",
 	"version": "${version}",
 	"name": "nofalllog",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is only here because ig 26.3 is annoying about a certain log",
 	"authors": [
 		"Me!"
 	],
@@ -13,26 +13,13 @@
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/nofalllog/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"xyz.harenbaren.Nofalllog"
-		],
-		"client": [
-			"xyz.harenbaren.client.NofalllogClient"
-		]
-	},
+	"environment": "server",
 	"mixins": [
-		"nofalllog.mixins.json",
-		{
-			"config": "nofalllog.client.mixins.json",
-			"environment": "client"
-		}
+		"nofalllog.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
 		"minecraft": "~26.3",
-		"java": ">=25",
-		"fabric-api": "*"
+		"java": ">=25"
 	}
 }

@@ -3,7 +3,7 @@
 	"package": "xyz.harenbaren.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"NoFallLog"
 	],
 	"injectors": {
 		"defaultRequire": 1
